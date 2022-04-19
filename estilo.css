@@ -1,0 +1,39 @@
+.container{
+    background-color: rgb(85, 94, 94);
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    height:900px;
+   
+}
+
+.container2{
+    display: grid;
+    background-color: rgb(6, 82, 197);
+    grid-template-columns:200px 200px 200px;
+    margin-top:50px;
+    justify-content: space-around;
+    
+   
+}
+
+
+
+.item{
+    background-color:rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(56, 19, 223);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+    padding: 10px;
+    height:200px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color:rgb(86, 83, 92);
+}
